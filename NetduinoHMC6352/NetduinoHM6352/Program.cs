@@ -1,11 +1,9 @@
 ﻿using System;
-
 using System.Threading;
 using Microsoft.SPOT;
-using Microsoft.SPOT.Hardware;
 
-using BigBlueSparx.NetMF.FEZ.HMC6352Compass;
-using BigBlueSparx.NetMF.FEZ;
+using ToolBoxes;
+
 
 namespace NetduinoHM6352
 {

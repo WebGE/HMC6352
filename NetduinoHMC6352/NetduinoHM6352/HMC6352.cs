@@ -1,9 +1,7 @@
 using System;
-using System.Threading;
-using Microsoft.SPOT;
 using Microsoft.SPOT.Hardware;
 
-namespace BigBlueSparx.NetMF.FEZ.HMC6352Compass
+namespace ToolBoxes
 {
     public class HMC6352Compass
     {
