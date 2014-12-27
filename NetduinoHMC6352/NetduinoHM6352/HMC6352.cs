@@ -3,7 +3,7 @@ using Microsoft.SPOT.Hardware;
 
 namespace ToolBoxes
 {
-    public class HMC6352Compass
+    public class HMC6352
     {
         /* Compass Modes: 
          *  Standby: Factory Default.  Measurements are made and the results are returned AFTER the next read command.
@@ -76,20 +76,20 @@ namespace ToolBoxes
 
 
         // this constructor assumes the default factory 2*Slave Address + R/W = 0x42
-        public HMC6352Compass()
+        public HMC6352()
         {
             ConfigHM6352 = new I2CDevice.Configuration(0x21, 100);
         }
 
 
         // This constructor allows user to specify the Slave Address, bus frequency = 100khz 
-        public HMC6352Compass(UInt16 I2C_Add_7bits)
+        public HMC6352(UInt16 I2C_Add_7bits)
         {
             ConfigHM6352 = new I2CDevice.Configuration(I2C_Add_7bits, 100);           
         }
 
         // This constructor allows user to specify the Slave Address and bus frequency
-        public HMC6352Compass(UInt16 I2C_Add_7bits, UInt16 FreqBusI2C)
+        public HMC6352(UInt16 I2C_Add_7bits, UInt16 FreqBusI2C)
         {
             ConfigHM6352 = new I2CDevice.Configuration(I2C_Add_7bits, FreqBusI2C);
         }

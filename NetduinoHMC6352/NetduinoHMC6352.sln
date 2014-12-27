@@ -1,7 +1,7 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetduinoHM6352", "NetduinoHM6352\NetduinoHM6352.csproj", "{478D79DE-7CA3-4312-815B-6ED5D0E7F468}"
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetduinoHMC6352", "NetduinoHM6352\NetduinoHMC6352.csproj", "{478D79DE-7CA3-4312-815B-6ED5D0E7F468}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

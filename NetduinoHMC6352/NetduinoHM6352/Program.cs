@@ -5,7 +5,7 @@ using Microsoft.SPOT;
 using ToolBoxes;
 
 
-namespace NetduinoHM6352
+namespace TestNetduinoHMC6352
 {
     public class Program
     {
@@ -16,19 +16,19 @@ namespace NetduinoHM6352
             UInt16 Freq = 100;
 
             // Création d'un objet boussole HMC6352
-            HMC6352Compass compass = new HMC6352Compass(addCompass_I2C, Freq);
+            HMC6352 compass = new HMC6352(addCompass_I2C, Freq);
 
             // Affichage de la version du software et de l'adresse de la boussole
             float lastHeading = (int)compass.GetHeading();
-            byte ver = compass.ReadEeprom(HMC6352Compass.EEPROMAddress.SoftwareVersion);
+            byte ver = compass.ReadEeprom(HMC6352.EEPROMAddress.SoftwareVersion);
             Debug.Print("Software Version = " + ver.ToString());
-            byte i2cAddr = compass.ReadEeprom(HMC6352Compass.EEPROMAddress.SlaveAddress);
+            byte i2cAddr = compass.ReadEeprom(HMC6352.EEPROMAddress.SlaveAddress);
             Debug.Print("Slave Address = " + i2cAddr.ToString());
 
-            HMC6352Compass.OperationalMode mode = compass.GetOperationalMode();
+            HMC6352.OperationalMode mode = compass.GetOperationalMode();
             Debug.Print("Operational Mode = " + mode.ToString());
 
-            HMC6352Compass.Frequency frequency = compass.GetFrequency();
+            HMC6352.Frequency frequency = compass.GetFrequency();
             Debug.Print("Frequency = " + frequency.ToString());
 
             Thread.Sleep(2000);
