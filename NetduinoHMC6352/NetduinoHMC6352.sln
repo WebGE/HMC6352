@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetduinoHMC6352", "NetduinoHM6352\NetduinoHMC6352.csproj", "{478D79DE-7CA3-4312-815B-6ED5D0E7F468}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HMC6352", "HMC6352\HMC6352.csproj", "{DA093CFB-6F4F-4E40-A465-23395C794F06}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{478D79DE-7CA3-4312-815B-6ED5D0E7F468}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{478D79DE-7CA3-4312-815B-6ED5D0E7F468}.Release|Any CPU.Build.0 = Release|Any CPU
 		{478D79DE-7CA3-4312-815B-6ED5D0E7F468}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{DA093CFB-6F4F-4E40-A465-23395C794F06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA093CFB-6F4F-4E40-A465-23395C794F06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA093CFB-6F4F-4E40-A465-23395C794F06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA093CFB-6F4F-4E40-A465-23395C794F06}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
