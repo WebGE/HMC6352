@@ -47,4 +47,10 @@
       <Name>HMC6352</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Lisez-moi.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Doc_A_Consulter\HMC6352.pdf" />
+  </ItemGroup>
 </Project>
