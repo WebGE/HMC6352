@@ -1,12 +1,20 @@
-HMC6352
-=======
+#HMC6352
 
-Tags: I²C, Digital Compass solution HMC6352, Netduino, C#, Visual Studio.
+Source code of the HMC6352 <strong>NETMF class</strong> contained in the <a href="https://www.nuget.org/packages/WEBGE.Microtoolskit/" target="_blank">MicroToolsKit</a> <strong>library</strong>. Download at <a href="https://www.nuget.org" target="_blank">nuget.com</a>
 
-Target: Netduino, Netduino plus 2, Netduino 3.
+This class is for a HMC6352 circuit : <strong>Digital Compass</strong>.
 
-This library can be use to control the Digital Compass solution <a href="https://www.sparkfun.com/products/retired/7915" target="_blank">HMC6352</a> with Netduino.
+<strong>Tags</strong>: I²C Bus, Netduino, FEZ, PANDA, COBRA, C#, NETMF, Visual Studio.
 
-Code written in C# with Visual Studio 2013. 
+<strong>Target</strong>: Netduino, Netduino plus 2, Netduino 3, FEZ PANDA 3 et COBRA 3.
 
-NetduinoHMC6352 : Example test program.
+<strong>IDE</strong> : Visual Studio Community.
+
+<strong>Language</strong> : C#.
+
+<strong>Framework</strong> : .NETMF 4.3
+
+<hr>
+See <a href="http://webge.github.io/HMC6352/" target="_blank">HMC6352 GitHub Pages</a> too get started.
+
+Maintened by <a href="mailto:philippemariano@gmail.com">Philippe Mariano</a>
