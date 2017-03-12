@@ -17,4 +17,4 @@ This class is for a HMC6352 circuit : <strong>Digital Compass</strong>.
 <hr>
 See <a href="http://webge.github.io/HMC6352/" target="_blank">HMC6352 GitHub Pages</a> too get started.
 
-Maintened by <a href="mailto:philippemariano@gmail.com">Philippe Mariano</a>
+Maintened by <a href="mailto:philippemariano@gmail.com">WebGE</a>
