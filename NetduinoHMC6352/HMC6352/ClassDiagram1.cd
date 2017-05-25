@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="ToolBoxes.HMC6352">
+    <Position X="0.5" Y="0.5" Width="5.75" />
+    <Members>
+      <Field Name="BusI2C" Hidden="true" />
+      <Field Name="ConfigHM6352" Hidden="true" />
+      <Field Name="myBytesTransmitted" Hidden="true" />
+      <Field Name="myI2Command" Hidden="true" />
+      <Field Name="myReadBuffer" Hidden="true" />
+      <Field Name="myReadEEPROM" Hidden="true" />
+      <Method Name="WriteEeprom" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="ToolBoxes.HMC6352.OperationalMode" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>HMC6352.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="ToolBoxes.HMC6352.Frequency" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>HMC6352.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="ToolBoxes.HMC6352.OutputMode" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>HMC6352.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="ToolBoxes.HMC6352.Command" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>HMC6352.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="ToolBoxes.HMC6352.EEPROMAddress" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>HMC6352.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AgEACIAgAQAkAAAAAAQAAAAAAAAAAgABQAAgAACAEQA=</HashCode>
+      <FileName>HMC6352.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
