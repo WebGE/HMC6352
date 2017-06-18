@@ -2,23 +2,19 @@
 using System.Threading;
 using Microsoft.SPOT;
 
-using ToolBoxes;
+using testMicroToolsKit.Hardware.Sensors;
 
-
-namespace TestNetduinoHMC6352
+namespace Netduino
 {
     public class Program
     {
         public static void Main()
         {
-            // Paramètres du bus I2C
-            byte addCompass_I2C = 0x21; // Adresse (7 bits) du circuit HMC6352
-            UInt16 Freq = 100;
+            byte sla = 0x21;
+            UInt16 I2Cfrequency = 100; // kHz
 
-            // Création d'un objet boussole HMC6352
-            HMC6352 compass = new HMC6352(addCompass_I2C, Freq);
+            HMC6352 compass = new HMC6352(sla, I2Cfrequency);
 
-            // Affichage de la version du software et de l'adresse de la boussole
             float lastHeading = (int)compass.GetHeading();
             byte ver = compass.ReadEeprom(HMC6352.EEPROMAddress.SoftwareVersion);
             Debug.Print("Software Version = " + ver.ToString());
@@ -35,8 +31,7 @@ namespace TestNetduinoHMC6352
 
             while (true)
             {
-                Thread.Sleep(500);
-
+                
                 float heading = compass.GetHeading();
 
                 if (heading != lastHeading)
@@ -44,7 +39,11 @@ namespace TestNetduinoHMC6352
                     lastHeading = heading;
                     Debug.Print(heading.ToString("N2"));
                 }
-            } 
+
+                Thread.Sleep(500);
+
+            }
         }
+
     }
 }
