@@ -42,6 +42,10 @@ I²C Bus, Netduino, FEZ, PANDA, COBRA, C#, NETMF, Visual Studio.
 -------------------
 Fez Panda III, Netduino2 plus
 
+<strong>Todo list</strong>
+-------------------
+any
+
 <strong>To get started</strong>
 --------------------
 - <a href="http://webge.github.io/HMC6352/" target="_blank">HMC6352 GitHub Pages</a> (in French).
