@@ -28,7 +28,7 @@ This class is also in the <a href="https://www.nuget.org/packages/WEBGE.Microtoo
 <li><strong>HMC6352</strong>
 <ul>
 <li><strong>HMC6352</strong> : .NetMF class</li>
-<img src="img/HMC6352.png" />
+<img src="img/hmc6352.png" />
 <li><strong>Netduino</strong> : class test program for Netduino board</li>
 <li><strong>FezPanda</strong> : class test program for Fez Panda board</li>
 </ul>
