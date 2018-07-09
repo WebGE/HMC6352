@@ -34,6 +34,10 @@ To come up
 -------------------
 To come up
 
+<strong>Keywords</strong>
+----------------------------
+I²C Bus, Netduino, FEZ, PANDA, COBRA, C#, NETMF, Visual Studio.
+
 <strong>Tested on</strong>
 -------------------
 Fez Panda III, Netduino2 plus
