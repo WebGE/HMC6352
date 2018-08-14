@@ -6,7 +6,7 @@ Source code.
 
 A **.NETMF v4.3 class** write for HMC6352 module.
 
-This class is also in the [MicroToolsKit]("https://www.nuget.org/packages/WEBGE.Microtoolskit/") **library**. Download at [nuget.com]("https://www.nuget.org").
+This class is also in the [MicroToolsKit](https://www.nuget.org/packages/WEBGE.Microtoolskit/) **library**. Download at [nuget.com]https://www.nuget.org").
 
  ![](img/nuget.JPG)
 
@@ -53,15 +53,15 @@ any
 
 **To get started**
 ----
-* [HMC6352 GitHub Page (French)](http://webge.github.io/HMC6352/)
+* [HMC6352 GitHub Page](http://webge.github.io/HMC6352/) (French)
 
 **Feed on Google+**
 ----
-* [C# embarqué et .NetMF v4.3 : Netduino et GHI FEZ</a> (French)](https://plus.google.com/collection/oaaJX).
+* [C# embarqué et .NetMF v4.3 : Netduino et GHI FEZ](https://plus.google.com/collection/oaaJX) (French).
 
 **Wiki**
 ------
-* [C# embarqué et .NetMF v4.3 pour les cartes Netduino et GHI FEZ (French)](http://webge.dyndns-server.com/dokuwiki/doku.php?id=netmf43:accueilnetmf).
+* [C# embarqué et .NetMF v4.3 pour les cartes Netduino et GHI FEZ](http://webge.dyndns-server.com/dokuwiki/doku.php?id=netmf43:accueilnetmf) (French).
 
 **Project site**
 ----
