@@ -6,7 +6,7 @@ Source code.
 
 A **.NETMF v4.3 class** write for HMC6352 module.
 
-This class is also in the [MicroToolsKit](https://www.nuget.org/packages/WEBGE.Microtoolskit/) **library**. Download at [nuget.com]https://www.nuget.org").
+This class is also in the [MicroToolsKit](https://www.nuget.org/packages/WEBGE.Microtoolskit/) **library**. Download at [nuget.com](https://www.nuget.org").
 
  ![](img/nuget.JPG)
 
@@ -25,7 +25,6 @@ This class is also in the [MicroToolsKit](https://www.nuget.org/packages/WEBGE.M
 **Visual Studio solution**
 ----
 * **HMC6352**
-
   * **HMC6352** : .NetMF class
 ![](img/hmc6352.png)
 * **Netduino** : class test program for Netduino board
