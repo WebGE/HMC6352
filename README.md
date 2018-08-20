@@ -1,70 +1,71 @@
 # HMC6352
 
-**Description**
-----
+## Description
+
 Source code.
 
 A **.NETMF v4.3 class** write for HMC6352 module.
 
 This class is also in the [MicroToolsKit](https://www.nuget.org/packages/WEBGE.Microtoolskit/) **library**. Download at [nuget.org](https://www.nuget.org).
 
- ![](img/nuget.JPG)
+![nuget](img/nuget.JPG)
 
-**Hardware**
-----
+## Hardware
+
 **Targets**: Netduino, Netduino2 plus, Netduino 3, FEZ PANDA 3 and COBRA 3.
 
-**Software**
-----
+## Software
+
 * **Language** : C#
 * **Framework used** : .NETMF 4.3
 * **IDE** : Visual Studio Community 2013 (2015)
 * **xml** : documentation inside class  
 * **Exception** : if transaction failed
 
-**Visual Studio solution**
-----
+## Visual Studio solution
+
 * **HMC6352**
   * **HMC6352** : .NetMF class
 
-![](img/hmc6352.png)
+![HMC6352](img/hmc6352.png)
+
 * **Netduino** : class test program for Netduino board
 * **FezPanda** : class test program for Fez Panda board
 
-**Assembly**
-----
+## Assembly
+
 To come up
 
-**Video**
-----
+## Videos
+
 To come up
 
-**Keywords**
------
+## Keywords
+
 I²C Bus, Netduino, FEZ, PANDA, COBRA, C#, NETMF, Visual Studio.
 
-**Tested on**
-----
+## Tested on
+
 Fez Panda III, Netduino2 plus
 
-**Todo list**
-----
+## Todo list
+
 any
 
-**To get started**
-----
-* [HMC6352 GitHub Page](http://webge.github.io/HMC6352/) (French)
+## To get started
 
-**Feed on Google+**
-----
+See [HMC6352 GitHub Page](http://webge.github.io/HMC6352/) (French)
+
+## Feed on Google+
+
 * [C# embarqué et .NetMF v4.3 : Netduino et GHI FEZ](https://plus.google.com/collection/oaaJX) (French).
 
-**Wiki**
-------
+## Wiki
+
 * [C# embarqué et .NetMF v4.3 pour les cartes Netduino et GHI FEZ](http://webge.dyndns-server.com/dokuwiki/doku.php?id=netmf43:accueilnetmf) (French).
 
-**Project site**
-----
-* [MicroToolsKit library](http://webge.dyndns-server.com/dokuwiki/doku.php?id=netmf43:6_microtoolskit) (English).
-#
+## Project site
+
+* [MicroToolsKit library](http://webge.dyndns-server.com/dokuwiki/doku.php?id=netmf43:6_microtoolskit) (English)
+
 **Maintened by** [WebGe](mailto:philippemariano@gmail.com)
